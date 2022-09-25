@@ -1,0 +1,10 @@
+gyula = "Mit Ittál Gyuluska?!"
+print("\n" + gyula)
+gyula = gyula.lower()
+print("Kisbetű: " + gyula)
+print("Nagybetű?")
+print(gyula.isupper())
+print("Kisbetű?:")
+print(gyula.islower())
+print("Hány betű Gyuluska?:")
+print(len(gyula))
