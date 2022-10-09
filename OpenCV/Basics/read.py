@@ -4,7 +4,7 @@ img = cv.imread('C:/Users/horva/Pictures/canvas.png')
 
 cv.imshow('Cat', img)
 
-capture = cv.VideoCapture('D:/Torrent/Mamma.Mia!/Mamma.Mia.avi')
+capture = cv.VideoCapture('C:/Users/horva/Pictures/pexels-cottonbro-5532773.mp4')
 
 while True:
     isTrue, frame = capture.read()
