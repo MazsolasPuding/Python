@@ -22,7 +22,7 @@ def plot_3d(x, y, z, cmap='Reds', title=''):
     ax.set_title(title, size=20)
     plt.show()
 
-im = imread('~/Pictures/small.jpg')
+im = imread('../Pics/small_winnie.jpeg')
 
 Y = np.arange(im.shape[0])
 X = np.arange(im.shape[1])
